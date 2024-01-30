@@ -1,4 +1,3 @@
 line = input()
-total_words = line.count(' ') + 1
-print("Total words: {}".format(total_words))
-
+word_count = line.count(' ') + 1
+print(word_count)
