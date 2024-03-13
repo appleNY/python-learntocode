@@ -1,2 +1,2 @@
-S = input()
-print('sp' + ('o' * int(S)) + 'ky')
+S = int(input())
+print('sp' + ('o' * S) + 'ky')
