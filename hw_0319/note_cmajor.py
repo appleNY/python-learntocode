@@ -9,3 +9,5 @@ elif list(range(8, -1)):
     print("descending")
 else:
     print("mixed")
+
+#completed

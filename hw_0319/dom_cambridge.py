@@ -12,5 +12,5 @@ elif line.isalpha() == True and line.isupper() == True:
 
 print(line)
 
-
+#completed
 

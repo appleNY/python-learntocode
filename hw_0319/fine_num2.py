@@ -8,3 +8,5 @@ if (r1 < -1000 or r1 > 1000) or (s < -1000 or s > 1000):
 r2 = (s * 2) - r1
 
 print(r2)
+
+#completed
