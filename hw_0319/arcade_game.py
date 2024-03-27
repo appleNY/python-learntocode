@@ -11,3 +11,5 @@ if payed_quarter < 0 or payed_quarter > 21:
 quarters = play_money * 4
 
 print(quarters - payed_quarter)
+
+#completed
