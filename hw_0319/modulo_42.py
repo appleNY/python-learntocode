@@ -17,7 +17,7 @@ if num1 % 42 != num2 % 42:
     distinct_num = distinct_num + 1
 elif num1 % 42 != num3 % 42 and num2 % 42 != num3 % 42:
     distinct_num = distinct_num + 2
-elif num1 %42 != num4 % 42 and num2 % 42 != num4 % 42 and num3 % 42 != num4 % 42:
+elif num1 % 42 != num4 % 42 and num2 % 42 != num4 % 42 and num3 % 42 != num4 % 42:
     distinct_num = distinct_num + 3
 elif (num1 % 42 != num5 % 42 and num2 % 42 != num5 % 42 and num3 % 42 != num5 % 42
       and num4 % 42 != num5 % 42):

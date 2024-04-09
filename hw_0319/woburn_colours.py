@@ -1,7 +1,7 @@
-#https://dmoj.ca/problem/wc15c1j1
+# https://dmoj.ca/problem/wc15c1j1
 
-colours1 = input("RED" or "BLUE" or "WHITE")
-colours2 = input("RED" or "BLUE" or "WHITE")
+colours1 = input()
+colours2 = input()
 
 colours3 = ""
 
@@ -13,3 +13,6 @@ elif colours1 == "BLUE" and colours2 == "WHITE":
     colours3 = "RED"
 
 print(colours3)
+
+# completed
+

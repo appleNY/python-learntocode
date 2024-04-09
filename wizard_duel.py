@@ -1,4 +1,4 @@
-#https://dmoj.ca/problem/coci18c4p1
+# https://dmoj.ca/problem/coci18c4p1
 
 obeyed_wizard = input()
 if len(obeyed_wizard) != 1 or obeyed_wizard.isupper() == False or obeyed_wizard.isalpha() == False:
@@ -11,7 +11,7 @@ if duel_count < 1 or duel_count > 100:
 obeyed_history = obeyed_wizard
 for i in range(duel_count):
     duel = input()
-    if len(duel) != 3 or duel[1] != " " or duel[0].isupper() == False or duel[0].isalpha() == False or duel[2].isupper() == False or duel[2].isalpha() == False:
+    if len(duel) != 3 or duel[1] != " " or duel[0].isupper() == "False" or duel[0].isalpha() == "False" or duel[2].isupper() == "False" or duel[2].isalpha() == "False":
         exit(f"invalid duel:{duel}")
     if obeyed_wizard != duel[0] and obeyed_wizard == duel[2]:
         obeyed_wizard = duel[0]
@@ -20,4 +20,3 @@ for i in range(duel_count):
 
 print(obeyed_wizard)
 print(len(obeyed_history))
-

@@ -24,18 +24,18 @@ for i in range(2):
                 if len(correct1) != 1 or "ABCDE".find(correct1) == -1:
                     exit()
                 if student1 == correct1:
-                    correct_answer += correct_answer
+                    correct_answer += 1
             elif j == 1:
                 correct2 = input()
                 if len(correct2) != 1 or "ABCDE".find(correct2) == -1:
                     exit()
                 if student2 == correct2:
-                    correct_answer += correct_answer
+                    correct_answer += 1
             elif j == 2:
                 correct3 = input()
                 if len(correct3) != 1 or "ABCDE".find(correct3) == -1:
                     exit()
                 if student3 == correct3:
-                    correct_answer += correct_answer
+                    correct_answer += 1
 
 print(correct_answer)
