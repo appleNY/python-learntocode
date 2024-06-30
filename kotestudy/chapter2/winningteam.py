@@ -1,3 +1,5 @@
+#https://dmoj.ca/problem/ccc19j1
+
 apple_three = int(input())
 apple_two = int(input())
 apple_one = int(input())
