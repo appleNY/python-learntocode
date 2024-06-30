@@ -1,5 +1,10 @@
+#https://dmoj.ca/problem/coci18c3p1
+
 line = input()
-honi_block = 0
+if len(line) < 1 or len(line) > 100000:
+    exit()
+
+HONI_block = 0
 
 finding_letter = 'H'
 
@@ -12,7 +17,7 @@ for char in line:
         elif finding_letter == 'N':
             finding_letter = 'I'
         elif finding_letter == 'I':
-            honi_block = honi_block + 1
+            HONI_block = HONI_block + 1
             finding_letter = 'H'
 
-print(honi_block)
+print(HONI_block)

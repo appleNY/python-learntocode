@@ -1,4 +1,9 @@
+#https://dmoj.ca/problem/coci06c5p1
+
 swaps = input()
+if len(swaps) <= 0 or len(swaps) > 50:
+    exit()
+
 ball_location = 1
 
 for swap_type in swaps:

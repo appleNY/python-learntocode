@@ -1,7 +1,7 @@
 # https://dmoj.ca/problem/coci18c4p1
 
 obeyed_wizard = input()
-if len(obeyed_wizard) != 1 or obeyed_wizard.isupper() == False or obeyed_wizard.isalpha() == False:
+if len(obeyed_wizard) != 1 or obeyed_wizard.isupper() == "False" or obeyed_wizard.isalpha() == "False":
     exit(f"invalid obeyed_wizard:{obeyed_wizard}")
 
 duel_count = int(input())

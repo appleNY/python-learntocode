@@ -1,5 +1,6 @@
-n = int(input())
+#https://dmoj.ca/problem/ccc11s1
 
+n = int(input())
 if n < 0 or n > 10000:
     exit()
 elif 0 < n < 10000:
