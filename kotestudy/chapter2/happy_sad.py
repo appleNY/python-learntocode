@@ -1,6 +1,11 @@
+#https://dmoj.ca/problem/ccc15j2
+
 line = input()
-happy_emotion = line.count(':-(')
-sad_emotion = line.count(':-)')
+if len(line) < 1 or len(line) > 250:
+    exit()
+
+happy_emotion = line.count(':-)')
+sad_emotion = line.count(':-(')
 
 if happy_emotion > sad_emotion:
     print('happy')
