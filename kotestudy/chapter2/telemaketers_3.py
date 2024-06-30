@@ -1,3 +1,5 @@
+#https://dmoj.ca/problem/ccc18j1
+
 num1 = int(input())
 if num1 != 8 and num1 != 9:
     print('answer')
