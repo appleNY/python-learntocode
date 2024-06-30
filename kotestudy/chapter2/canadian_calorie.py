@@ -1,3 +1,5 @@
+#https://dmoj.ca/problem/ccc06j1
+
 burger1 = 461
 burger2 = 431
 burger3 = 420
