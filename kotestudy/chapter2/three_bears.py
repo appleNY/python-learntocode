@@ -1,6 +1,9 @@
+#https://dmoj.ca/problem/ccc07j1
+
 weight1 = int(input())
 weight2 = int(input())
 weight3 = int(input())
+#weight1, weight2, weight3 == positive integers less than 100
 
 if ((weight1 > weight2) and (weight1 < weight3)) or ((weight1 > weight3) and (weight1 < weight2)):
     mama_bowl = weight1
