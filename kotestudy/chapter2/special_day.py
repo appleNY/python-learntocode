@@ -1,5 +1,12 @@
-month = int(input())
+#https://dmoj.ca/problem/ccc15j1
+
+month = int(input()) # 1 == January, 12 == December
 day = int(input())
+
+if month <= 0 or month > 12:
+    exit()
+if day <= 0 or day > 31:
+    exit()
 
 if month < 2:
     print('Before')
