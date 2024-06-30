@@ -1,7 +1,7 @@
 #https://dmoj.ca/problem/ccc15j2
 
 line = input()
-if len(line) < 1 or len(line) > 250:
+if len(line) < 1 or len(line) > 255:
     exit()
 
 happy_emotion = line.count(':-)')
