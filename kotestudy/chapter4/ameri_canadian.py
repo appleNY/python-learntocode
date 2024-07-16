@@ -15,11 +15,19 @@ while True:
     word = input()
     if word == "quit!":
         exit()
+    american_words.append(word)
     # len(word) < 64
+
     index = 0
     #american_vowel = "a, e, i,o, u, y"
     while index < len(american_words):
-       if len(word) >= 4 and word[-2:] == "or" and word[-3] != "a, e, i, o, u, y":
+        word = american_words[index]
+        if len(word) >= 4 and word[-2:] == "or" and word[-3] != "a, e, i, o, u, y":
             american_words[index] = word[:-2] + "our"
         index += 1
 
+# output:
+# replaced words
+
+    for word in american_words:
+        print(word)
