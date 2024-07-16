@@ -30,12 +30,19 @@ for i in range(N):
         branka_score += 1
     if correct_answer[i] == goran_pattern[i % len(goran_pattern)]:
         goran_score += 1
+# used the solution to the slot_machine
+# if i = 0, 0 % 3 == 0: adria_pattern[0] = "A"
+# if i = 1, 1 % 3 == 1: adria_pattern[1] = "B"
+# if i = 2, 2 % 3 == 2: adria_pattern[2] = "C"
+# the pattern repeats as i increases
+# same as branka and goran
 
-#output:
-#number of correct answer
-#determines who of the three was right
+# output:
+# the largest number of correct answers one of the three boys gets, max score
+# determines who of the three was right
 
 max_score = max(adria_score, branka_score, goran_score)
+
 print(max_score)
 if adria_score == max_score:
     print("Adrian")
