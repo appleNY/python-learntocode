@@ -31,9 +31,9 @@ for i in range(N):
     if correct_answer[i] == goran_pattern[i % len(goran_pattern)]:
         goran_score += 1
 # used the solution to the slot_machine
-# if i = 0, 0 % 3 == 0: adria_pattern[0] = "A"
-# if i = 1, 1 % 3 == 1: adria_pattern[1] = "B"
-# if i = 2, 2 % 3 == 2: adria_pattern[2] = "C"
+# if i == 0, 0 % 3 = 0: adria_pattern[0] == "A"
+# if i == 1, 1 % 3 = 1: adria_pattern[1] == "B"
+# if i == 2, 2 % 3 = 2: adria_pattern[2] == "C"
 # the pattern repeats as i increases
 # same as branka and goran
 
