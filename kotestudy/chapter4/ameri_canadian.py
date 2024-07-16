@@ -9,25 +9,25 @@
 # N lines of words
 # quit!
 
-american_words = []
+canadian_words = []
 
 while True:
-    word = input()
-    if word == "quit!":
+    american_words = input()
+    if american_words == "quit!":
         exit()
-    american_words.append(word)
+    canadian_words.append(american_words)
     # len(word) < 64
 
     index = 0
     #american_vowel = "a, e, i,o, u, y"
-    while index < len(american_words):
-        word = american_words[index]
-        if len(word) >= 4 and word[-2:] == "or" and word[-3] != "a, e, i, o, u, y":
-            american_words[index] = word[:-2] + "our"
+    while index < len(canadian_words):
+        american_words = canadian_words[index]
+        if len(american_words) >= 4 and american_words[-2:] == "or" and american_words[-3] != "a, e, i, o, u, y":
+            canadian_words[index] = american_words[:-2] + "our"
         index += 1
 
 # output:
 # replaced words
 
-    for word in american_words:
-        print(word)
+    for american_words in canadian_words:
+        print(canadian_words)
