@@ -1,3 +1,5 @@
+#https://dmoj.ca/problem/ccc00s1
+
 chips = int(input())
 play_m1 = int(input())
 play_m2 = int(input())

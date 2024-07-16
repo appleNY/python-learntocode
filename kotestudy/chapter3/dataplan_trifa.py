@@ -1,3 +1,5 @@
+#https://dmoj.ca/problem/coci16c1p1
+
 monthly_given_data = int(input())
 n = int(input())
 
